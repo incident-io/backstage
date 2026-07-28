@@ -20668,6 +20668,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cookie-es@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "cookie-es@npm:3.1.1"
+  checksum: 2b196bf591a177a3602c26eb5a7253b6e08176262158d02c7dedb30903b7ffda83943b9099c25c739acedfaed143add2a39209522712b59e5b447e28c7c21469
+  languageName: node
+  linkType: hard
+
 "cookie-parser@npm:^1.4.5":
   version: 1.4.6
   resolution: "cookie-parser@npm:1.4.6"
@@ -23751,7 +23758,7 @@ __metadata:
     prop-types: ^15.7.2
     react: ^17.0.2
     react-dom: ^17.0.2
-    react-router: ^6.3.0
+    react-router: ^8.3.0
     react-router-dom: ^6.3.0
     react-use: ^17.2.4
     start-server-and-test: ^1.10.11
@@ -35121,7 +35128,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.9.0, react-router@npm:^6.3.0":
+"react-router@npm:6.9.0":
   version: 6.9.0
   resolution: "react-router@npm:6.9.0"
   dependencies:
@@ -35129,6 +35136,21 @@ __metadata:
   peerDependencies:
     react: ">=16.8"
   checksum: b2a5f42e042bee7a7f116ca7817b0e58359e5353d84887c9fe7a633d7490c03b1e0ae37cd01830c2a381e3d1e7d501bb4751e53cc3d491e25f36582d3f6e0546
+  languageName: node
+  linkType: hard
+
+"react-router@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "react-router@npm:8.3.0"
+  dependencies:
+    cookie-es: ^3.1.1
+  peerDependencies:
+    react: ">=19.2.7"
+    react-dom: ">=19.2.7"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 42a4f9d6db1cc420af125a142ebeed2f6083d49ed7366c1cd9dc0e62200b5a3dbd01f25298d4daff29771d11cda2308ffb99e5cd0be4261095b6f769edf78702
   languageName: node
   linkType: hard
 
